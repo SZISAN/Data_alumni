@@ -1,8 +1,8 @@
-/* Set the whole page background to black and text to white */
+/* Apply black background and white text to the whole page */
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #000000; /* Black */
+    color: #ffffff; /* White */
     margin: 0;
     padding: 0;
     text-align: center; /* Centers all text */
@@ -10,15 +10,16 @@ body {
 
 /* Style the header */
 header {
-    background-color: black; /* Keep the header black */
+    background-color: #000000; /* Black */
     padding: 20px;
 }
 
 /* Center the title and make it blue */
 header h1 {
-    color: blue; /* Change title color to blue */
+    color: #007bff; /* Blue */
     font-size: 2.5em; /* Adjust title size */
     text-align: center;
+    margin: 20px 0;
 }
 
 /* Style the search bar */
@@ -28,9 +29,9 @@ header h1 {
     margin-top: 10px;
     font-size: 1em;
     border-radius: 5px;
-    border: 1px solid white;
-    background-color: black;
-    color: white;
+    border: 1px solid #ffffff; /* White */
+    background-color: #000000; /* Black */
+    color: #ffffff; /* White */
 }
 
 /* Style the alumni list */
@@ -43,7 +44,7 @@ header h1 {
 
 /* Style each alumni profile */
 .alumni-profile {
-    background-color: #222;
+    background-color: #222222; /* Dark gray */
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
@@ -54,5 +55,5 @@ header h1 {
 
 .alumni-profile h3 {
     margin-top: 0;
-    color: cyan; /* Change name color */
+    color: #00ffff; /* Cyan */
 }
