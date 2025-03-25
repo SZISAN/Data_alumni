@@ -1,0 +1,52 @@
+/* Set the overall background to black and text color to white */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;  /* Black background */
+    color: #fff;  /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the header title */
+header {
+    background-color: #333; /* Dark background for header */
+    color: white;
+    padding: 20px;
+    text-align: center; /* Center the text */
+}
+
+/* Title color set to blue */
+header h1 {
+    color: blue;  /* Blue title text */
+}
+
+/* Style for the search input */
+#search {
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+/* Style for alumni list and profile */
+#alumni-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.alumni-profile {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.alumni-profile h3 {
+    margin-top: 0;
+}
