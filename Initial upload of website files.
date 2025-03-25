@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>University Department Alumni</h1>
+        <h1>F&B-JU Alumni Database</h1>
         <input type="text" id="search" placeholder="Search by name or other details..." onkeyup="searchAlumni()">
     </header>
     
