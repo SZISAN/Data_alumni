@@ -1,41 +1,4 @@
-// Sample alumni data (5 users)
-const alumniData = [
-    {
-        name: "Alice Johnson",
-        department: "Biotechnology",
-        graduationYear: "2018",
-        email: "alice@example.com",
-        linkedin: "https://linkedin.com/in/alicejohnson"
-    },
-    {
-        name: "Michael Smith",
-        department: "Environmental Science",
-        graduationYear: "2020",
-        email: "michael@example.com",
-        linkedin: "https://linkedin.com/in/michaelsmith"
-    },
-    {
-        name: "Sarah Lee",
-        department: "Food Technology",
-        graduationYear: "2016",
-        email: "sarah@example.com",
-        linkedin: "https://linkedin.com/in/sarahlee"
-    },
-    {
-        name: "David Brown",
-        department: "Nutrition Science",
-        graduationYear: "2019",
-        email: "david@example.com",
-        linkedin: "https://linkedin.com/in/davidbrown"
-    },
-    {
-        name: "Emma White",
-        department: "Agriculture",
-        graduationYear: "2021",
-        email: "emma@example.com",
-        linkedin: "https://linkedin.com/in/emmawhite"
-    }
-];
+
 
 // Function to Display Alumni Profiles
 function displayAlumni(data) {
